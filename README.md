@@ -17,7 +17,7 @@ This project just about the learn new things thats are viewPager2,recycleView an
 https://developer.android.com/training/animation/vp2-migration
 </p>
 
-<h3>Fragments, RecyclerView and others</h3>
+<h2>Fragments, RecyclerView and others</h2>
 <p>I use recyclerview in fragments for the show up the datas.The datas are mock datas which are generates the <a href="https://github.com/denefc/NewWeatherApp/blob/master/app/src/main/java/com/cevik/newweatherapp/data/MockDataGenerator.kt">MockDataGenerater</a>(I know this is for beginners.)I didn't use any apı but as soon as possible I want to wire weather.com's API to show up real datas</p>
 
 <h3>The Purpose</h4>
