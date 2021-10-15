@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="10dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cloudy" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/day_text"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Bugün"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/dot_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="∙"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Bulutlu"
+        android:gravity="center" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/degree_text"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="21°/5°"
+        android:gravity="right"
+
+        />
+
+
+
+
+</LinearLayout>
