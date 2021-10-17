@@ -9,12 +9,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/secondDayText"
+        android:textColor="@color/white"
         android:textSize="16sp"
         android:text="Now"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/secondDegree"
+        android:textColor="@color/white"
         android:textSize="16sp"
         android:text="16°C"
         android:gravity="center"

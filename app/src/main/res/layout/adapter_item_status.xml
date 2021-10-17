@@ -25,6 +25,7 @@
 
     <TextView
         android:id="@+id/day_text"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:text="Bugün"
@@ -32,6 +33,7 @@
     <TextView
         android:id="@+id/dot_symbol"
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="40dp"
         android:text="∙"
         android:gravity="center" />
@@ -39,12 +41,14 @@
         android:id="@+id/status_text"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
+        android:textColor="@color/white"
         android:text="Bulutlu"
         android:gravity="center" />
     <TextView
         android:layout_weight="1"
         android:id="@+id/degree_text"
         android:layout_width="wrap_content"
+        android:textColor="@color/white"
         android:layout_height="40dp"
         android:text="21°/5°"
         android:gravity="right"

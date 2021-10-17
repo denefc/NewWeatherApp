@@ -27,6 +27,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#03A9F4"
         app:cardCornerRadius="20dp"
         android:layout_marginTop="10dp"
         app:cardBackgroundColor="#50C0C0C0"
@@ -37,6 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingHorizontal="20dp"
+            android:textColor="@color/white"
             android:paddingVertical="10dp"
             android:text="For 5 days weather status "/>
 
@@ -47,6 +49,7 @@
         android:id="@+id/celciusText"
         android:layout_height="wrap_content"
         android:text="16°C"
+        android:textColor="@color/white"
         android:textSize="100sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
